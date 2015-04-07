@@ -18,17 +18,33 @@ footer {
   position: absolute;
   bottom: 0;
   font-size: 0.9em;
+  
   .container {
     display: table;
     min-height: 80px;
+
     .copyright, .sponsor {
       display: table-cell;
       vertical-align: middle;
       width: 48%;
     }
+    
     .sponsor {
+      height: 100%;
       text-align: right;
+
+      span {
+        position: relative;
+        top: -5px;
+      }
+      img {
+        height: 35px;
+        margin: 0 20px;
+        position: relative;
+        top: 5px;
+      }
     }
+
   }
 }
 
