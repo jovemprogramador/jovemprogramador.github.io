@@ -1,0 +1,24 @@
+.btn {
+  padding: 20px 35px;
+  background-color: #ccc;
+  border-radius: 5px;
+  color: #000;
+
+  &:hover {
+    background-color: darken(#ccc, 10%);
+    text-decoration: none;
+  }
+
+  &.primary {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $blue;
+    
+    &:hover {
+      background-color: darken($blue, 10%);
+    }
+
+  }
+
+}

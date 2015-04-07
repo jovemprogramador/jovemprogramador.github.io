@@ -1,0 +1,61 @@
+@media(max-width: 768px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 90%;
+    display: block;
+  }
+
+  footer {
+    width: 100%;
+    min-height: 80px;
+    background: #fff;
+    padding: 25px 0;
+    .container {
+      width: 90%;
+      .copyright, .sponsor {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      .copyright {
+        margin-bottom: 20px;
+        
+        img {
+          width: 41px;
+          margin: 10px 0;
+        }
+        
+      }
+    }
+  }
+
+  section.main {
+    width: 100%;
+    min-height: 100%;
+
+    .content, .illustration {
+      display: block;
+    }
+
+    .content {
+      display: block;
+      width: 100%;
+      a {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    .illustration {
+      display: none;
+      width: 68%;
+      img {
+        float: right;
+      }
+    }
+  }
+}
