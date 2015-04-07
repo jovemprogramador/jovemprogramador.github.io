@@ -3,6 +3,7 @@
   background-color: #ccc;
   border-radius: 5px;
   color: #000;
+  display: inline-block;
 
   &:hover {
     background-color: darken(#ccc, 10%);
@@ -14,7 +15,7 @@
     text-transform: uppercase;
     color: #fff;
     background-color: $blue;
-    
+
     &:hover {
       background-color: darken($blue, 10%);
     }
