@@ -63,6 +63,10 @@
 
 @media(max-width: 480px) {
   body {
+    .btn {
+      margin-bottom: 40px;
+    }
+
     footer span {
       display: block;
     }
