@@ -11,7 +11,6 @@
 
   footer {
     width: 100%;
-    height: auto;
     background: #fff;
     padding: 25px 0;
     .container {
@@ -36,6 +35,7 @@
   section.main {
     width: 100%;
     min-height: 100%;
+    padding-bottom: 0;
 
     .content, .illustration {
       display: block;

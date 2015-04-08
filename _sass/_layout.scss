@@ -13,10 +13,8 @@ body {
 
 footer {
   width: 100%;
-  height: 80px;
+  min-height: 80px;
   background: #fff;
-  position: absolute;
-  bottom: 0;
   font-size: 0.9em;
 
   .container {
@@ -50,9 +48,8 @@ footer {
 
 section.main {
   width: 100%;
-  height: 100%;
+  height: calc(100% - 80px);
   display: table;
-  padding-bottom: 80px;
 
   .content, .illustration {
     display: table-cell;
@@ -110,7 +107,7 @@ section.main {
       position: absolute;
       max-height: calc(100% - 80px);
       max-width: 100%;
-      bottom: -50px;
+      bottom: 0;
     }
   }
 }
