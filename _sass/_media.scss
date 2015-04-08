@@ -13,6 +13,7 @@
     width: 100%;
     background: #fff;
     padding: 25px 0;
+
     .container {
       width: 90%;
       .copyright, .sponsor {
@@ -20,6 +21,7 @@
         width: 100%;
         text-align: center;
       }
+
       .copyright {
         margin-bottom: 20px;
 
@@ -55,6 +57,14 @@
       img {
         float: right;
       }
+    }
+  }
+}
+
+@media(max-width: 480px) {
+  body {
+    footer span {
+      display: block;
     }
   }
 }
