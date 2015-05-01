@@ -64,8 +64,9 @@ section.main {
     color: #fff;
 
     .logo {
-      width: 12em;
-      margin: 50px 0;
+      width: 22em;
+      max-width: 100%;
+      margin: 20% 0 50px 0;
     }
 
     h1 {
@@ -75,7 +76,7 @@ section.main {
     }
 
     .description {
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       font-size: 1.1em;
       line-height: 1.4;
     }

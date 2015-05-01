@@ -1,3 +1,9 @@
+@media(min-width: 1281px) {
+  section.main .content .logo {
+    margin-top: 40%; 
+  }
+}
+
 @media(max-width: 768px) {
 
   body {
@@ -65,6 +71,10 @@
   body {
     .btn {
       margin-bottom: 40px;
+    }
+    
+    section.main .content .logo {
+      margin-top: 50px; 
     }
 
     footer span {
